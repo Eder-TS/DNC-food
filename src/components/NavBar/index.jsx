@@ -6,29 +6,29 @@ import './style.css'
 
 const links =[
     {
-    id: 1,
-    label: 'Variedades',
-    link: '/categorias/variedades'
+        id: 1,
+        label: 'Variedades',
+        link: '/categorias/variedades'
     },
     {
-    id: 2,
-    label: 'Lanches',
-    link: '/categorias/lanches'
+        id: 2,
+        label: 'Lanches',
+        link: '/categorias/lanches'
     },
     {
-    id: 3,
-    label: 'Pizzas',
-    link: '/categorias/pizzas'
+        id: 3,
+        label: 'Pizzas',
+        link: '/categorias/pizzas'
     },
     {
-    id: 4,
-    label: 'Doces',
-    link: '/categorias/doces'
+        id: 4,
+        label: 'Doces',
+        link: '/categorias/doces'
     },
     {
-    id: 5,
-    label: 'Promoções',
-    link: '/categorias/promocoes'
+        id: 5,
+        label: 'Promoções',
+        link: '/categorias/promocoes'
     }
 ]
 
