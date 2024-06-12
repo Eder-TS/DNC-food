@@ -4,4 +4,25 @@
     margin: 20px;
 
     text-align: center;
+
+    border: 1px solid #E39F0B;
+    border-radius: 8px;
+}
+
+.imageLink{
+    text-decoration: none;
+}
+
+.titleLink{
+    text-decoration: none;
+    display: inline-block;
+
+    font-weight: 400;
+    color: black;
+    
+    padding: 16px;
+}
+
+.card button{
+    margin-bottom: 15px;
 }

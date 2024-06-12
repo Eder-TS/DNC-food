@@ -1,4 +1,4 @@
-import produtos from "@/app/mock/produtos"
+import products from "@/app/mock/products"
 import Card from "@/components/Card"
 import './style.css'
 
@@ -6,8 +6,15 @@ function CategoriaPage({params}) {
     return (
         <div className='categorias'>
 
-            {produtos && produtos.map(produto => 
-                                        <Card key={produto.id}  src={produto.src} alt={produto.alt} title={produto.title}/>)}
+            {products && products.map(product => 
+                                        <Card key={product.id}
+                                                id={product.id}  
+                                                src={product.src}
+                                                productLink={product.link}
+                                                alt={product.alt} 
+                                                title={product.title}
+                                                buttonLink='/cart/minhascompras'
+            />)}
         </div>
     )
 }

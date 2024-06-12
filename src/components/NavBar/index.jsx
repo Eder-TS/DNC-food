@@ -50,7 +50,9 @@ function NavBar() {
                 </div>
             </div>
             
-            <div>Carrinho</div>
+            <div>
+                <Link href='/cart/minhascompras'>Minhas Compras</Link>
+            </div>
         </nav>
     )
 }
