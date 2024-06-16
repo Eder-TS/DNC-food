@@ -45,13 +45,21 @@ function NavBar() {
                     />
                 </div>
 
-                <div>
+                <div className='menu text'>
                     {links && links.map(link => <Link key={link.id} href={link.link}>{link.label}</Link>)}
                 </div>
             </div>
             
-            <div>
-                <Link href='/cart/minhascompras'>Minhas Compras</Link>
+            <div className='menu-cart text'>
+                <Link href='/cart/minhascompras'>
+                    <div>Minhas Compras</div>
+                    <Image 
+                        src="https://via.placeholder.com/81x57"
+                        alt="Carrinho de compras"
+                        width={81}
+                        height={57}
+                    />
+                </Link>
             </div>
         </nav>
     )

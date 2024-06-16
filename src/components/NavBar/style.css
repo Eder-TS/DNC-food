@@ -1,8 +1,46 @@
 .navbar{
+    background-color: #E39F0B;
+
     display: flex;
     justify-content: space-between;
 }
 
 .content{
     display: flex;
+}
+
+.content img{
+    margin: 20px 40px
+}
+
+.menu{
+    margin: auto;
+}
+
+.menu a{
+    padding: 0 20px;
+}
+
+.menu-cart{
+    display: flex;
+    margin-right: 40px;
+    padding: auto;
+}
+
+.menu-cart a{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-cart img{
+    padding-left: 15px;
+}
+
+.text a{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
